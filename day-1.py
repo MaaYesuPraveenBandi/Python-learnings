@@ -1,14 +1,16 @@
 x =100
 y = 200
+# WRONG APPROCH
 # x=y
 # y=x
 
+APPROCH-1
+temp = x
+x = y
+y = temp
 
-# temp = x
-# x = y
-# y = temp
 
-
+APPROCH-2
 x,y = y,x
 
 print(x)
